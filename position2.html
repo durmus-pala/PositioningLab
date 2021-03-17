@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Display 2</title>
+    <style>
+        body{
+            padding: 20px 0;
+        }
+        #cont{
+            height: 100px;
+        }
+        div{
+         
+            border: thin solid black;
+            position: relative;
+        }
+        .element{
+            display: inline-block;
+            border: none;
+        }
+        #one{
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        #two{
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        #three{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+        #four{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="cont">
+    <div class= "element" id="one">One</div>
+    <div class= "element" id="two">Two</div>
+    <div class= "element" id="three">Three</div>
+    <div class= "element" id="four">Four</div>
+    </div>
+    
+</body>
+</html>

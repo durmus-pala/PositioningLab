@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float Display 6</title>
+    <style>
+        #para1{
+            border-right: 2px solid black;
+            width: 45%;
+            padding: 20px;
+            float: left; 
+        }
+        #para2{
+            width: 45%;
+            padding: 20px;
+            float:right;
+        }
+        div::after{
+            content: "";
+            display:block;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p id="para1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at porttitor quam. Aenean sem urna, 
+            sollicitudin sed aliquet non, fermentum vitae ipsum. Proin et consectetur sapien, a elementum dolor.
+             Praesent convallis, lorem vel consectetur lobortis, leo arcu egestas diam, iaculis vehicula orci
+              turpis at ligula. Sed lacinia ante metus, vitae tincidunt turpis tristique posuere. Nulla
+               scelerisque risus a augue dignissim, sed pulvinar libero maximus. Ut ullamcorper
+                eget ante nec varius. Nam non mollis lacus. Nulla interdum, risus id ultrices porttitor, 
+                quam mi cursus ex, eu malesuada eros ligula at quam. Maecenas in libero lectus. Vivamus
+                 vitae nunc vitae sapien interdum blandit. 
+        </p>
+
+        <p id="para2">
+            Duis non orci erat. Integer cursus placerat consequat. Praesent malesuada commodo porta. Phasellus
+             finibus, metus ut efficitur aliquam, arcu turpis euismod lectus, ut auctor sapien nisi id nisi.
+              Sed tristique felis vel ex lacinia iaculis. Aliquam mi eros, finibus sit amet felis quis, pulvinar
+               interdum leo. Vestibulum ut massa faucibus magna maximus aliquam. 
+        </p>
+    </div>
+    <p id="para3">
+        Praesent et libero sit amet sem rutrum sollicitudin a vulputate est. Suspendisse potenti. In ac 
+        consectetur eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+         himenaeos. Proin vel pretium ligula. Class aptent taciti sociosqu ad litora torquent per conubia
+          nostra, per inceptos himenaeos. Maecenas sed odio vehicula mi tempus rhoncus. Lorem ipsum dolor
+           sit amet, consectetur adipiscing elit. Vestibulum vulputate commodo lectus, sed vulputate massa
+            congue ac. Curabitur eget tellus eget urna interdum bibendum nec eget mauris. Donec euismod a 
+            nulla nec semper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+             turpis egestas. Maecenas ut ipsum orci. Etiam iaculis eleifend nisi eget laoreet. Integer
+              molestie arcu at erat lacinia gravida. Maecenas hendrerit nec metus sit amet sagittis.
+    </p>
+</body>
+</html>

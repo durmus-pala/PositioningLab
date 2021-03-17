@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float Display 1</title>
+    <style>
+        div{
+            text-align: justify;
+            background-color: lightblue;
+        }
+         img{
+            float: left;
+            margin: 20px;
+            
+           
+            /* float: right; */
+        } 
+        #container::after{
+            content: "";
+            clear: both;
+            display: block;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <img src="http://placekitten.com/100/100" alt="cat">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione cum, et molestias animi sapiente 
+            accusantium tenetur facere perspiciatis quod repellendus eius deserunt officia omnis, totam dignissimos
+             nemo. Minima, sapiente deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, voluptate
+              magni animi sint quisquam minima reprehenderit cum nisi provident. Odio iusto architecto 
+              voluptate repellendus ut. Tempore repellat ratione harum suscipit!</p> 
+              
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident suscipit sunt possimus 
+        sapiente molestias nobis ad voluptatibus, error deleniti vero consectetur voluptas ipsa 
+        perspiciatis harum iure velit et autem. Aliquam.</p>
+   
+</body>
+</html>
